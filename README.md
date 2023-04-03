@@ -1,7 +1,15 @@
 # AutoPecheTOF
 Petit outil qui permet d'automatiser la pêche sur Tower of Fantasy codé en autoIT
 
-##Pré-requis
+## Disclamer
+
+Cet outil ne fait ni plus ni moins que de simuler ce qu'un vrai joueur fait lorsque l'on pêche sur Tower of Fantasy.
+
+Pour cela il analyse la couleur des pixels de votre écran pour voir où est la barre de pêche et appuye sur les touches du clavier gauche ou droite en fonction de la position. 
+
+Ainsi le fait d'utiliser celui-ci ou de faire vous-même votre pêche manuellement est indiscernable par le jeu. Vous ne risquez donc pas de vous faire bannir pour l'utilisation de celui-ci, ceci dit bien évidemment comme je le fournis gratuitement je décline toute responsabilité par rapport à son utilisation. Ce n'est pas le seul outil de ce type sur github, et même gateoo lui-même en a utilisé un de ce type en stream sur twitch sans souci si cela peut vous rassurer ;)
+
+## Pré-requis
 
  - TOF lancé en plein écran
  - Résolution d'écran de 1920x1080 ou 1680x1050 (si vous avez une autre résolution vous pouvez m'envoyer une capture d'écran de votre jeu en train de pêcher un poisson et j'ajouterai votre résolution au programme)

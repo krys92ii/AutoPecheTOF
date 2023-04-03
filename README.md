@@ -31,7 +31,7 @@ Une fois téléchargés, installez-les dans l'ordre en choisissant l'option "edi
 
 Une fois les programmes installés, téléchargez le fichier peche.au3 disponible sur cette page. Faites un clic droit dessus puis "edit script". Une fois la fenêtre de code ouverte appuyez sur F5 pour compiler et lancer le programme.
 
-##Mode d'emploi
+## Mode d'emploi
 
 Une fois le programme executé, commencez à pêcher un poisson et le reste se fera tout seul tout simplement :)
 

@@ -62,6 +62,45 @@ if @DesktopWidth = 1680 AND @DesktopHeight = 1050 Then
 	$bouton_canne_y = 900
 EndIf
 
+if @DesktopWidth = 1600 AND @DesktopHeight = 900 Then
+	$bordure_gauche = 569
+	$bordure_droite = 1030
+	$bordure_hauteur = 69
+	$pixel_endurance_x = 527
+	$pixel_endurance_y = 98
+	$bouton_canne_x = 1414
+	$bouton_canne_y = 753
+EndIf
+
+if @DesktopWidth = 1366 AND @DesktopHeight = 768 Then
+	$bordure_gauche = 484
+	$bordure_droite = 882
+	$bordure_hauteur = 58
+	$pixel_endurance_x = 448
+	$pixel_endurance_y = 82
+	$bouton_canne_x = 1210
+	$bouton_canne_y = 644
+EndIf
+
+if @DesktopWidth = 1280 AND @DesktopHeight = 1024 Then
+	$bordure_gauche = 452
+	$bordure_droite = 827
+	$bordure_hauteur = 54
+	$pixel_endurance_x = 420
+	$pixel_endurance_y = 77
+	$bouton_canne_x = 1133
+	$bouton_canne_y = 909
+EndIf
+
+if @DesktopWidth = 1280 AND @DesktopHeight = 720 Then
+	$bordure_gauche = 452
+	$bordure_droite = 825
+	$bordure_hauteur = 54
+	$pixel_endurance_x = 420
+	$pixel_endurance_y = 77
+	$bouton_canne_x = 1133
+	$bouton_canne_y = 604
+EndIf
 
 While 1
 

@@ -3,7 +3,7 @@ Petit outil qui permet d'automatiser la pêche sur Tower of Fantasy codé en aut
 
 ## Disclamer
 
-Cet outil ne fait ni plus ni moins que de simuler ce qu'un vrai joueur fait lorsque l'on pêche sur Tower of Fantasy.
+Cet outil ne fait ni plus ni moins que simuler ce qu'un vrai joueur fait lorsque l'on pêche sur Tower of Fantasy.
 
 Pour cela il analyse la couleur des pixels de votre écran pour voir où est la barre de pêche et appuye sur les touches du clavier gauche ou droite en fonction de la position. 
 

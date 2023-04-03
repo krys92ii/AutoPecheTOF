@@ -17,7 +17,7 @@ Ainsi le fait d'utiliser celui-ci ou de faire vous-même votre pêche manuelleme
 
 ## Comment l'executer
 
-1°) le plus simple : télécharger l'exe compilé directement en cliquant sur la droite. Windows va surement vous prévenir qu'il s'agit d'un virus car windows defender est stupide et catalogue tout les executables codés avec autoit comme tel, mais ce sont des faux positifs donc vous pouvez passer outre sans risque
+1°) le plus simple : télécharger l'exe compilé directement en cliquant sur la droite. Windows va surement vous prévenir qu'il s'agit d'un virus car windows defender est stupide et catalogue tous les executables codés avec autoit comme tel, mais ce sont des faux positifs donc vous pouvez passer outre sans risque
 
 2°) un peu plus long mais sans alerte de sécurité windows : compiler vous-même le programme.
 

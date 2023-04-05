@@ -46,8 +46,8 @@ if @DesktopWidth = 1920 AND @DesktopHeight = 1080 Then
 	$bordure_gauche = 676
 	$bordure_droite = 1246
 	$bordure_hauteur = 83
-	$pixel_endurance_x = 631
-	$pixel_endurance_y = 117
+	$pixel_endurance_x = 632
+	$pixel_endurance_y = 118
 	$bouton_canne_x = 1702
 	$bouton_canne_y = 903
 EndIf

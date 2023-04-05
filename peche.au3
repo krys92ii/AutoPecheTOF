@@ -166,7 +166,7 @@ While 1
 
 				$timer_started = 0
 
-				sleep(2500)
+				sleep(3000)
 
 				MouseClick("left", $bouton_canne_x, $bouton_canne_y, 1, 0)
 

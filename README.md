@@ -7,7 +7,7 @@ Cet outil ne fait ni plus ni moins que simuler ce qu'un vrai joueur fait lorsque
 
 Pour cela il analyse la couleur des pixels de votre écran pour voir où est la barre de pêche et appuye sur les touches du clavier gauche ou droite en fonction de la position. 
 
-Ainsi le fait d'utiliser celui-ci ou de faire vous-même votre pêche manuellement est indiscernable par le jeu. Vous ne risquez donc EN THEORIE pas de vous faire bannir pour l'utilisation de celui-ci, ceci dit bien évidemment le risque 0 n'existe pas donc vous l'utilisez en votre âme et conscience ! De plus comme je le fournis gratuitement je décline bien évidemment toute responsabilité par rapport à son utilisation. Ceci dit ce n'est pas le seul outil de ce type sur github, et même gateoo lui-même en a utilisé un de ce type en stream sur twitch sans souci si cela peut vous rassurer ;)
+Ainsi le fait d'utiliser celui-ci ou de faire vous-même votre pêche manuellement est indiscernable par le jeu. Vous ne risquez donc en théorie pas de vous faire bannir pour l'utilisation de celui-ci, ceci dit bien évidemment le risque 0 n'existe pas  De plus comme je le fournis gratuitement je décline bien évidemment toute responsabilité par rapport à son utilisation. Ceci dit ce n'est pas le seul outil de ce type sur github, gateoo lui-même en a utilisé un de ce type en stream sur twitch sans souci et a ma connaissance personne n'utilisant un outil de ce type ne s'est jamais fait ban si cela peut vous rassurer ;)
 
 ## Pré-requis
 

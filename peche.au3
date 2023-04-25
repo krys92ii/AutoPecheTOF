@@ -1,27 +1,11 @@
-#cs ----------------------------------------------------------------------------
-
- AutoIt Version: 3.3.16.0
- Author:         myName
-
- Script Function:
-	Template AutoIt script.
-
-#ce ----------------------------------------------------------------------------
-
-; Script Start - Add your code below here
-
 #RequireAdmin
-
 
 #include <MsgBoxConstants.au3>
 #include <GUIConstantsEx.au3>
 #include <StaticConstants.au3>
 #include <WindowsConstants.au3>
 
-
 HotKeySet ("{F6}", "stop")
-
-$time = Number(@HOUR & @MIN)
 
 $peche_started = 0
 
@@ -35,10 +19,13 @@ $pos_rectangle = 928
 $pos_centre_rectangle = 928 + 35
 
 $check_endu_poisson = 0
-$last_checksum = 0
 
 $timer = 0
 $timer_started = 0
+
+$timer_catch = 0
+$timer_catch_started = 0
+
 
 ;paramétrage résolutions
 
@@ -62,47 +49,10 @@ if @DesktopWidth = 1680 AND @DesktopHeight = 1050 Then
 	$bouton_canne_y = 900
 EndIf
 
-if @DesktopWidth = 1600 AND @DesktopHeight = 900 Then
-	$bordure_gauche = 569
-	$bordure_droite = 1030
-	$bordure_hauteur = 69
-	$pixel_endurance_x = 527
-	$pixel_endurance_y = 98
-	$bouton_canne_x = 1414
-	$bouton_canne_y = 753
-EndIf
-
-if @DesktopWidth = 1366 AND @DesktopHeight = 768 Then
-	$bordure_gauche = 484
-	$bordure_droite = 882
-	$bordure_hauteur = 58
-	$pixel_endurance_x = 448
-	$pixel_endurance_y = 82
-	$bouton_canne_x = 1210
-	$bouton_canne_y = 644
-EndIf
-
-if @DesktopWidth = 1280 AND @DesktopHeight = 1024 Then
-	$bordure_gauche = 452
-	$bordure_droite = 827
-	$bordure_hauteur = 54
-	$pixel_endurance_x = 420
-	$pixel_endurance_y = 77
-	$bouton_canne_x = 1133
-	$bouton_canne_y = 909
-EndIf
-
-if @DesktopWidth = 1280 AND @DesktopHeight = 720 Then
-	$bordure_gauche = 452
-	$bordure_droite = 825
-	$bordure_hauteur = 54
-	$pixel_endurance_x = 420
-	$pixel_endurance_y = 77
-	$bouton_canne_x = 1133
-	$bouton_canne_y = 604
-EndIf
 
 While 1
+
+	$time = Number(@HOUR & @MIN)
 
 	;if $time > 1400 Then Shutdown(5) ;désactiver si besoin
 
@@ -118,8 +68,6 @@ While 1
 
 			$pos_curseur=$array_curseur[0]
 
-			;GUICtrlSetData($Label2, $pos_curseur)
-
 		Else
 
 			$peche_started = 0
@@ -134,11 +82,7 @@ While 1
 
 			$pos_rectangle=$array_rectangle[0]
 
-			;GUICtrlSetData($Label4, $pos_rectangle)
-
 			$pos_centre_rectangle = $pos_rectangle + 35
-
-			;GUICtrlSetData($Label6, $pos_centre_rectangle)
 
 		Else
 
@@ -158,25 +102,41 @@ While 1
 
 			EndIf
 
-			if  timerdiff($timer) > 5000 AND PixelGetColor($pixel_endurance_x, $pixel_endurance_y) = 4802889 then
+			;consolewrite(PixelGetColor($pixel_endurance_x, $pixel_endurance_y) & @CRLF)
 
-				Send("{d up}")
-				Send("{a up}")
-				Send("{q up}")
+			if  timerdiff($timer) > 5000 AND PixelGetColor($pixel_endurance_x, $pixel_endurance_y) = 4802889 then
 
 				$timer_started = 0
 
-				sleep(3000)
+				if $timer_catch_started = 0 Then
 
-				MouseClick("left", $bouton_canne_x, $bouton_canne_y, 1, 0)
+					$timer_catch = TimerInit()
 
-				sleep(2500)
+					$timer_catch_started = 1
 
-				MouseClick("left", $bouton_canne_x, $bouton_canne_y, 1, 0)
+				endif
 
-				sleep(2000)
+				if timerdiff($timer_catch) > 3000 Then
 
-				MouseClick("left", $bouton_canne_x, $bouton_canne_y, 1, 0)
+					$timer_catch_started = 0
+
+					$timer_catch = 0
+
+					$timer = 0
+
+					$timer_started = 0
+
+					MouseClick("left", $bouton_canne_x, $bouton_canne_y, 1, 0)
+
+					sleep(3000)
+
+					MouseClick("left", $bouton_canne_x, $bouton_canne_y, 1, 0)
+
+					sleep(2500)
+
+					MouseClick("left", $bouton_canne_x, $bouton_canne_y, 1, 0)
+
+				EndIf
 
 			EndIf
 

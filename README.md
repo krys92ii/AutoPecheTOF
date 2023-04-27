@@ -12,8 +12,10 @@ Ainsi le fait d'utiliser celui-ci ou de faire vous-même votre pêche manuelleme
 ## Pré-requis
 
  - TOF lancé en plein écran
- - Résolution d'écran de 1920x1080 ou 1680x1050 (si vous avez une autre résolution vous pouvez m'envoyer une capture d'écran de votre jeu en train de pêcher un poisson et j'ajouterai votre résolution au programme)
+ - Résolution d'écran de 1920x1080 ou 1680x1050 
  - Paramètre windows "mise à l'échelle et disposition" réglé à 100% (pour voir ce paramètre faites un clic droit sur le bureau windows puis "paramètres d'affichage").
+ 
+ Si vous ne rentrez pas dans ces critères, allez-voir le fork de krys qui lui gère cela (le lien est à droite)
 
 ## Comment l'executer
 

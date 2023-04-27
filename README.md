@@ -15,7 +15,6 @@ Ainsi le fait d'utiliser celui-ci ou de faire vous-même votre pêche manuelleme
  - Résolution d'écran de 1920x1080 ou 1680x1050 
  - Paramètre windows "mise à l'échelle et disposition" réglé à 100% (pour voir ce paramètre faites un clic droit sur le bureau windows puis "paramètres d'affichage").
  
- Si vous ne rentrez pas dans ces critères, allez-voir le fork de krys qui lui gère cela (le lien est à droite)
 
 ## Comment l'executer
 

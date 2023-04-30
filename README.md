@@ -12,10 +12,8 @@ Ainsi le fait d'utiliser celui-ci ou de faire vous-même votre pêche manuelleme
 ## Pré-requis
 
  - TOF lancé en plein écran
- - Résolution d'écran de 1920x1080 ou 1680x1050 
- - Paramètre windows "mise à l'échelle et disposition" réglé à 100% (pour voir ce paramètre faites un clic droit sur le bureau windows puis "paramètres d'affichage").
+ - Résolution d'écran de 2560x1440 ou 1920x1080 ou 1680x1050 ou 1600x900 ou 1366x768 ou 1280x1024 ou 1280x720
  
-
 ## Comment l'executer
 
 1°) le plus simple : télécharger l'exe compilé directement en cliquant sur la droite. Windows va surement vous prévenir qu'il s'agit d'un virus car windows defender est stupide et catalogue tous les executables codés avec autoit comme tel, mais ce sont des faux positifs donc vous pouvez passer outre sans risque

@@ -26,6 +26,9 @@ $last_checksum = 0
 $timer = 0
 $timer_started = 0
 
+$timer_catch = 0
+$timer_catch_started = 0
+
 ;mise a l'echelle
 $iAppDPI = RegRead('HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics', 'AppliedDPI')
 ;recherche le jeux
